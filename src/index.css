@@ -1,0 +1,45 @@
+html,
+body {
+     background-color: black;
+     color: white;
+     font-family: "Courier New", Courier, monospace;
+     height: 100%;
+}
+
+#root,
+main {
+     height: 100vh;
+}
+nav {
+     display: flex;
+     justify-content: space-between;
+     padding: 16px;
+     border: solid 1px white;
+}
+
+.nav-link {
+     color: white;
+     text-decoration: none;
+}
+
+.nav-link:hover {
+     text-decoration: underline;
+     cursor: pointer;
+}
+
+.home,
+.cosmos {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 50%;
+}
+
+.go-back-button {
+     background-color: black;
+     color: greenyellow;
+     font-family: "Courier New", Courier, monospace;
+     border: solid 1px greenyellow;
+     padding: 16px;
+     width: 200px;
+}
